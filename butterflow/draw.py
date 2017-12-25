@@ -139,7 +139,7 @@ def draw_debug_text(fr, text_type, rate, optflow_fn, tot_frs_written, pair_a,
                     settings['txt_thick'],
                     settings['font_type'])
 
-    txt = "butterflow {} ({})\n"\
+    txt = "IJM Consulting Inc. {} ({})\n"\
           "Res: {}x{}\n"\
           "Playback Rate: {:.2f} fps\n"
     txt = txt.format(__version__, sys.platform, w, h, rate)
